@@ -2,52 +2,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,500;0,700;1,400&display=swap"
 );
 
+*{
+    font-family: 'Chakra Petch', sans-serif;
+    color: #fff;
+}
 body{
-    background-image: linear-gradient(rgba(5,7,12,0.40), rgba(5,7,12,0.40)), url(../../MiPorfolioFrontEnd/assets/img/Playa.png);
+    background-image: url(../src/assets/imag/Playa.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
-}
-.navbar.navbar-expand-lg.bg-secondary{
-    background: rgb(2,0,36);
-    background: -moz-radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    background: -webkit-radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1); 
-}
-.navbar-brand {
-    background-image: url(../../MiPorfolioFrontEnd/assets/img/ApLogo1.png);
 }
 
-/* Redes*/
-.fa-brands.fa-github.fa-2xl,
-.fa-brands.fa-linkedin.fa-2xl,
-.fa-brands.fa-instagram.fa-2xl,
-.fa-solid.fa-user-lock.fa-2xl{
-    color: #fff;
-}
-.fa-brands.fa-github.fa-2xl:hover{
-    color: rgb(86, 27, 164);
-}
-
-.fa-brands.fa-linkedin.fa-2xl:hover{
-    color: rgb(84, 165, 247);
-}
-.fa-brands.fa-instagram.fa-2xl:hover{
-    color: rgba(193, 10, 126, 0.853);
-}
-.fa-solid.fa-user-lock.fa-2xl:hover{
-    color: darkgreen;
-}
-.fa-solid.fa-user.fa-2xl{
-    color: #fff;
-}
-.fa-solid.fa-user.fa-2xl:hover{
-    color: darkgreen;
-}
-.list-group{
-    --bs-list-group-bg: transparent;
-    --bs-list-group-border-color: transparent;
-}
