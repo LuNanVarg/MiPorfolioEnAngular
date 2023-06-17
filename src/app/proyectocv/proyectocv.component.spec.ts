@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ProyectoCVComponent } from './proyecto-cv.component';
+import { ProyectoCVComponent } from './proyectocv.component';
 
 describe('ProyectoCVComponent', () => {
   let component: ProyectoCVComponent;

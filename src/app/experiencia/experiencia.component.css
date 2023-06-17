@@ -1,0 +1,8 @@
+/*.imagen-personal{
+transition: 400ms;
+box-shadow: 10px 10px 25px 15px #020024;
+}
+.imagen-personal:hover{
+    opacity: 0.3;
+}*/
+/*Toma la imagen del body más la de la experiencia, no queda bien por angular?*/  

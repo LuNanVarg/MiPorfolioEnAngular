@@ -26,4 +26,14 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-Hola, estoy trabajando en la parte de front y Back en angular, estuve sin compu, ahora estoy usando una pc de escritorio y me estoy poniendo al día cada vez que me prestan la pc.Estoy viendo las clases por clases para armar. Espero que me esperen para poder completar y correguirme
+Hola, estoy trabajando en la parte de front y Back en angular, estuve sin compu, ahora estoy usando una pc de escritorio y me estoy poniendo al día cada vez que me prestan la pc.Estoy viendo las clases por clases para armar. Espero que me esperen para poder completar y correguirme.
+
+
+
+
+Problema a solucionar a la hora de realizar la ruta de conección.
+Generar en la terminal el routing "powershell" ng generate module app-routing --flat --module=app
+Al darme error 
+A marge conflicted on path src app app routing module ts.
+El conflicto estaba al no subir a git repositorio
+desde la terminal bash (git status (te dice el error a solucionar) despues git git add . y otra vez git status)

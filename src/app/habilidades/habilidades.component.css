@@ -1,0 +1,122 @@
+/* Grafica en css para Habilidades*/
+.progress-section{
+    text-align: center; 
+    padding: 80px 0px; 
+    background: 0;
+}
+.progress-section h2{ 
+    margin-bottom:70px; 
+    color:#000000;
+}
+.progress-bars-eight{ 
+    margin: auto; 
+    background: #595959; 
+    width: 120px; 
+    height: 120px; 
+    transform: rotate(45deg); 
+    position: relative;
+}
+.progress-bars-eight h6 { 
+    line-height: 120px; 
+    text-align: center; 
+    transform: rotate(-45deg);
+}
+.progress-bars-eight:before{
+    position: absolute; 
+    content: ""; 
+    border: solid 5px #595959; 
+    border-width: 5px 0px 0px 5px; 
+    width: 30px; 
+    height: 30px; 
+    top: -9px; 
+    left: -9px; 
+    bottom: -9px; 
+    right: -9px; 
+    z-index: 10;
+}
+.progress-bars-eight:after{
+    position: absolute; 
+    content: ""; 
+    border: solid 5px #00d4ff; 
+    border-width: 5px 5px 5px 5px; 
+    width: 140px; height: 140px; 
+    top: -9px; left: -9px; 
+    bottom: -9px; 
+    right: -9px;
+}
+.progress-bars-five{ 
+    margin: auto; 
+    background:  #595959; 
+    width: 120px; 
+    height: 120px; 
+    transform: rotate(45deg); 
+    position: relative;
+}
+.progress-bars-five h6 { 
+    line-height: 120px; 
+    text-align: center; 
+    transform: rotate(-45deg);
+}
+.progress-bars-five:before{
+    position: absolute; 
+    content: ""; 
+    border: solid 5px #595959; 
+    border-width: 5px 0px 0px 5px; 
+    width: 120px; 
+    height: 120px; 
+    top: -9px; 
+    left: -9px; 
+    bottom: -9px; 
+    right: -9px; 
+    z-index: 10;
+}
+.progress-bars-five:after{
+    position: absolute; 
+    content: ""; 
+    border: solid 5px #00d4ff; 
+    border-width: 5px 5px 5px 5px; 
+    width: 140px; 
+    height: 140px; 
+    top: -9px; 
+    left: -9px; 
+    bottom: -9px; 
+    right: -9px;
+}
+.progress-bars-six{ 
+    margin: auto; 
+    background: #595959; 
+    width: 120px; height: 120px; 
+    transform: rotate(45deg); 
+    position: relative;
+}
+.progress-bars-six h6 { 
+    line-height: 120px; 
+    text-align: center; 
+    transform: rotate(-45deg);
+}
+
+.progress-bars-six:before{
+    position: absolute; 
+    content: ""; 
+    border: solid 5px #595959; 
+    border-width: 5px 0px 0px 5px; 
+    width: 90px; 
+    height: 90px; 
+    top: -9px; 
+    left: -9px; 
+    bottom: -9px; 
+    right: -9px; 
+    z-index: 10;
+}
+.progress-bars-six:after{
+    position: absolute; 
+    content: ""; 
+    border: solid 5px #00d4ff; 
+    border-width: 5px 5px 5px 5px; 
+    width: 140px; 
+    height: 140px; 
+    top: -9px; 
+    left: -9px; 
+    bottom: -9px; 
+    right: -9px;
+}
